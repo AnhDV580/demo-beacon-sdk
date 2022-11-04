@@ -6,27 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <TextView-->
-<!--        android:id="@+id/title_of_activity"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:gravity="center"-->
-<!--        android:layout_marginTop="60dp"-->
-<!--        android:textSize="22sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:text="@string/txt_beacon_sdk_example"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        android:layout_marginHorizontal="40dp"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <TextView
+        android:id="@+id/title_of_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:text="@string/txt_beacon_sdk_example"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginHorizontal="40dp"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/title_of_activity">
 
         <Button
             android:id="@+id/button_user_info"
@@ -34,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="40dp"
             android:gravity="center"
-            android:text="Input user information" />
+            android:text="User information" />
 
         <Button
             android:id="@+id/button_beacon_detection"
@@ -52,7 +53,7 @@
             android:layout_marginHorizontal="40dp"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="Get location data from GPS" />
+            android:text="GPS Tracking" />
 
 
     </LinearLayout>
