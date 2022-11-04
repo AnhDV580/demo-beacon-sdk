@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Beacon SDK Example</string>
+    <string name="txt_beacon_sdk_example">Beacon SDK Example</string>
 </resources>
