@@ -7,8 +7,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.beacon_sdk.BeaconDetection;
-
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
